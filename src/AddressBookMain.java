@@ -11,6 +11,7 @@ public class AddressBookMain {
         AddressBookMain addressBookMain = new AddressBookMain();
         addressBookMain.addContact();
         addressBookMain.editContact();
+        addressBookMain.deleteContact();
     }
 
     public void addContact() {
@@ -48,8 +49,8 @@ public class AddressBookMain {
                     "\n edit zip" +
                     "\n edit phone_number" +
                     "\n edit email");
-           String Edit = scanner.next();
-            switch (Edit){
+            String Edit = scanner.next();
+            switch (Edit) {
                 case "firstname":
                     System.out.println("Enter the First Name to edit :");
                     String firstName = scanner.next();
@@ -116,6 +117,21 @@ public class AddressBookMain {
                     break;
                 default:
                     System.out.println("Wrong Input");
+            }
+        }
+    }
+
+    public void deleteContact() {
+        for (Contact con : contactsArray) {
+            System.out.println("Enter First Name of Person to Delete : ");
+            String firstName = scanner.next();
+            if (firstName.equals(con.getFirstname())) {
+                con.setFirstname(null);
+
+                System.out.println("Delete Successfully :");
+            } else {
+
+                System.out.println("No Contact Found :");
             }
         }
     }

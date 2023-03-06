@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75f22f70-cbb7-4823-a4b1-9c33296a6edb" name="Changes" comment="ADDED : Create Contacts in Address Book">
+    <list default="true" id="75f22f70-cbb7-4823-a4b1-9c33296a6edb" name="Changes" comment="ADDED : Edit Existing Contact">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddressBookMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AddressBookMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +59,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AddressBookMain" />
+        <item itemvalue="Application.Contact" />
         <item itemvalue="Application.AddressBookMain" />
         <item itemvalue="Application.Contact" />
       </list>
